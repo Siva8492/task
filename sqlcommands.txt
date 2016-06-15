@@ -1,0 +1,8 @@
+## top create database called "my_vcf"
+create database my_vcf;
+
+
+##to create table and columns of it.
+use my_vcf;
+
+create table mutect(chr varchar(10), pos int, id varchar(20), ref varchar(5), alt varchar(5), qual int, filter varchar(10), info varchar(1000), format varchar(20), none varchar(200), lung_cancer varchar(1000) );
